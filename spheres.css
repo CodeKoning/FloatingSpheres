@@ -33,7 +33,11 @@ header {
    top: 60%;
    left: 0%;
    max-width: 65px;
-   animation: slide ease 500s;
+   -webkit-animation: slide linear 400s;
+   -moz-animation: slide linear 400s;
+   -o-animation: slide linear 400s;
+   -ms-animation: slide linear 400s;
+   animation: slide linear 400s;
 }
 
 .sphere:nth-child(2) {
@@ -41,7 +45,11 @@ header {
    left: 60%;
    max-width: 115px;
    transform: rotate(50deg);
-   animation: slide-back ease 500s;
+   -webkit-animation: slide-back linear 400s;
+   -moz-animation: slide-back linear 400s;
+   -o-animation: slide-back linear 400s;
+   -ms-animation: slide-back linear 400s;
+   animation: slide-back linear 400s;
 }
 
 .sphere:nth-child(4) {
@@ -49,7 +57,11 @@ header {
    left: 30%;
    max-width: 75px;
    transform: rotate(90deg);
-   animation: slide linear 500s;
+   -webkit-animation: slide linear 400s;
+   -moz-animation: slide linear 400s;
+   -o-animation: slide linear 400s;
+   -ms-animation: slide linear 400s;
+   animation: slide linear 400s;
 }
 
 .sphere:nth-child(3) {
@@ -57,7 +69,11 @@ header {
    left: 80%;
    max-width: 100px;
    transform: rotate(140deg);
-   animation: slide-back linear 500s;
+   -webkit-animation: slide-back linear 400s;
+   -moz-animation: slide-back linear 400s;
+   -o-animation: slide-back linear 400s;
+   -ms-animation: slide-back linear 400s;
+   animation: slide-back linear 400s;
 }
 
 .sphere:nth-child(5) {
@@ -65,7 +81,11 @@ header {
    left: 20%;
    max-width: 95px;
    transform: rotate(280deg);
-   animation: slide-back ease 500s;
+   -webkit-animation: slide-back linear 400s;
+   -moz-animation: slide-back linear 400s;
+   -o-animation: slide-back linear 400s;
+   -ms-animation: slide-back linear 400s;
+   animation: slide-back linear 400s;
 }
 
 .sphere:nth-child(6) {
@@ -73,7 +93,11 @@ header {
    left: 5%;
    max-width: 120px;
    transform: rotate(320deg);
-   animation: slide ease 500s;
+   -webkit-animation: slide linear 400s;
+   -moz-animation: slide linear 400s;
+   -o-animation: slide linear 400s;
+   -ms-animation: slide linear 400s;
+   animation: slide linear 400s;
 }
 
 .sphere:nth-child(7) {
@@ -81,7 +105,11 @@ header {
    left: 115%;
    max-width: 40px;
    transform: rotate(320deg);
-   animation: slide-back ease 500s;
+   -webkit-animation: slide-back linear 400s;
+   -moz-animation: slide-back linear 400s;
+   -o-animation: slide-back linear 400s;
+   -ms-animation: slide-back linear 400s;
+   animation: slide-back linear 400s;
 }
 
 .quote-box-row {
@@ -98,6 +126,30 @@ header {
     /* border: 1px solid black; */
     text-align: center;
     margin: 30px 50px 30px 50px;
+}
+
+.quote-box-row-1 {
+   -webkit-animation: slide linear 400s;
+   -moz-animation: slide linear 400s;
+   -o-animation: slide linear 400s;
+   -ms-animation: slide linear 400s;
+   animation: slide linear 90s;
+}
+
+.quote-box-row-2 {
+   -webkit-animation: slide-back linear 400s;
+   -moz-animation: slide-back linear 400s;
+   -o-animation: slide-back linear 400s;
+   -ms-animation: slide-back linear 400s;
+   animation: slide-back linear 90s;
+}
+
+.quote-box-row-3 {
+   -webkit-animation: slide linear 400s;
+   -moz-animation: slide linear 400s;
+   -o-animation: slide linear 400s;
+   -ms-animation: slide linear 400s;
+   animation: slide linear 90s;
 }
 
 .quote-text {
