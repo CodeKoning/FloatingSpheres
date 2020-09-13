@@ -14,7 +14,7 @@ header {
     height: 100px;
 }
 
-.main-content {
+.owa-press-page {
     position: relative;
     width: 100%;
     height: 500px;
@@ -125,32 +125,9 @@ header {
     min-width: 200px;
     /* border: 1px solid black; */
     text-align: center;
-    margin: 30px 50px 30px 50px;
+    margin: 200px 50px 30px 50px;
 }
 
-.quote-box-row-1 {
-   -webkit-animation: slide linear 400s;
-   -moz-animation: slide linear 400s;
-   -o-animation: slide linear 400s;
-   -ms-animation: slide linear 400s;
-   animation: slide linear 90s;
-}
-
-.quote-box-row-2 {
-   -webkit-animation: slide-back linear 400s;
-   -moz-animation: slide-back linear 400s;
-   -o-animation: slide-back linear 400s;
-   -ms-animation: slide-back linear 400s;
-   animation: slide-back linear 90s;
-}
-
-.quote-box-row-3 {
-   -webkit-animation: slide linear 400s;
-   -moz-animation: slide linear 400s;
-   -o-animation: slide linear 400s;
-   -ms-animation: slide linear 400s;
-   animation: slide linear 90s;
-}
 
 .quote-box-row a {
     text-decoration: none;
@@ -169,6 +146,40 @@ header {
 
 footer {
     height: 100px;
+}
+
+@media screen and (min-width: 420px) {
+
+    .quote-box-row-1 {
+        -webkit-animation: slide linear 90s;
+        -moz-animation: slide linear 90s;
+        -o-animation: slide linear 90s;
+        -ms-animation: slide linear 90s;
+        animation: slide linear 90s;
+    }
+
+    .quote-box-row-2 {
+        -webkit-animation: slide-back linear 90s;
+        -moz-animation: slide-back linear 90s;
+        -o-animation: slide-back linear 90s;
+        -ms-animation: slide-back linear 90s;
+        animation: slide-back linear 90s;
+    }
+
+    .quote-box-row-3 {
+        -webkit-animation: slide linear 90s;
+        -moz-animation: slide linear 90s;
+        -o-animation: slide linear 90s;
+        -ms-animation: slide linear 90s;
+        animation: slide linear 90s;
+    }
+
+    .quote-box {
+        min-width: 200px;
+        /* border: 1px solid black; */
+        text-align: center;
+        margin: 30px 50px 30px 50px;
+    }
 }
 
 @keyframes slide {
