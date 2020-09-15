@@ -16,176 +16,233 @@ header {
 
 .owa-press-page {
     position: relative;
+    margin: 0;
+    padding: 0;
+    height: 700px;
     width: 100%;
-    height: 500px;
     background-color: rgba(162, 178, 201, .35);
+    box-sizing: border-box;
     overflow: hidden;
 }
 
 .sphere {
-    display: block;
-    position: absolute;
-    max-width: 130px;
-    z-index: 1;
+  display: block;
+  position: absolute;
+  max-width: 130px;
+  z-index: 1;
 }
 
 .sphere:nth-child(1) { /* odd children are sand, even are blue */
-   top: 60%;
-   left: 0%;
-   max-width: 65px;
-   -webkit-animation: slide linear 400s;
-   -moz-animation: slide linear 400s;
-   -o-animation: slide linear 400s;
-   -ms-animation: slide linear 400s;
-   animation: slide linear 400s;
+ top: 60%;
+ left: 0%;
+ max-width: 65px;
+ -webkit-animation: slide linear 400s;
+ -moz-animation: slide linear 400s;
+ -o-animation: slide linear 400s;
+ -ms-animation: slide linear 400s;
+ animation: slide linear 400s;
 }
 
 .sphere:nth-child(2) {
-   top: 70%;
-   left: 60%;
-   max-width: 115px;
-   transform: rotate(50deg);
-   -webkit-animation: slide-back linear 400s;
-   -moz-animation: slide-back linear 400s;
-   -o-animation: slide-back linear 400s;
-   -ms-animation: slide-back linear 400s;
-   animation: slide-back linear 400s;
+ top: 70%;
+ left: 60%;
+ max-width: 115px;
+ transform: rotate(50deg);
+ -webkit-animation: slide-back linear 400s;
+ -moz-animation: slide-back linear 400s;
+ -o-animation: slide-back linear 400s;
+ -ms-animation: slide-back linear 400s;
+ animation: slide-back linear 400s;
 }
 
 .sphere:nth-child(4) {
-   top: 40%;
-   left: 30%;
-   max-width: 75px;
-   transform: rotate(90deg);
-   -webkit-animation: slide linear 400s;
-   -moz-animation: slide linear 400s;
-   -o-animation: slide linear 400s;
-   -ms-animation: slide linear 400s;
-   animation: slide linear 400s;
+ top: 40%;
+ left: 30%;
+ max-width: 75px;
+ transform: rotate(90deg);
+ -webkit-animation: slide linear 400s;
+ -moz-animation: slide linear 400s;
+ -o-animation: slide linear 400s;
+ -ms-animation: slide linear 400s;
+ animation: slide linear 400s;
 }
 
 .sphere:nth-child(3) {
-   top: 20%;
-   left: 80%;
-   max-width: 100px;
-   transform: rotate(140deg);
-   -webkit-animation: slide-back linear 400s;
-   -moz-animation: slide-back linear 400s;
-   -o-animation: slide-back linear 400s;
-   -ms-animation: slide-back linear 400s;
-   animation: slide-back linear 400s;
+ top: 20%;
+ left: 80%;
+ max-width: 100px;
+ transform: rotate(140deg);
+ -webkit-animation: slide-back linear 400s;
+ -moz-animation: slide-back linear 400s;
+ -o-animation: slide-back linear 400s;
+ -ms-animation: slide-back linear 400s;
+ animation: slide-back linear 400s;
 }
 
 .sphere:nth-child(5) {
-   top: 90%;
-   left: 20%;
-   max-width: 95px;
-   transform: rotate(280deg);
-   -webkit-animation: slide-back linear 400s;
-   -moz-animation: slide-back linear 400s;
-   -o-animation: slide-back linear 400s;
-   -ms-animation: slide-back linear 400s;
-   animation: slide-back linear 400s;
+ top: 90%;
+ left: 20%;
+ max-width: 95px;
+ transform: rotate(280deg);
+ -webkit-animation: slide-back linear 400s;
+ -moz-animation: slide-back linear 400s;
+ -o-animation: slide-back linear 400s;
+ -ms-animation: slide-back linear 400s;
+ animation: slide-back linear 400s;
 }
 
 .sphere:nth-child(6) {
-   top: 4%;
-   left: 5%;
-   max-width: 120px;
-   transform: rotate(320deg);
-   -webkit-animation: slide linear 400s;
-   -moz-animation: slide linear 400s;
-   -o-animation: slide linear 400s;
-   -ms-animation: slide linear 400s;
-   animation: slide linear 400s;
+ top: 4%;
+ left: 5%;
+ max-width: 120px;
+ transform: rotate(320deg);
+ -webkit-animation: slide linear 400s;
+ -moz-animation: slide linear 400s;
+ -o-animation: slide linear 400s;
+ -ms-animation: slide linear 400s;
+ animation: slide linear 400s;
 }
 
 .sphere:nth-child(7) {
-   top: 4%;
-   left: 115%;
-   max-width: 40px;
-   transform: rotate(320deg);
-   -webkit-animation: slide-back linear 400s;
-   -moz-animation: slide-back linear 400s;
-   -o-animation: slide-back linear 400s;
-   -ms-animation: slide-back linear 400s;
-   animation: slide-back linear 400s;
+ top: 4%;
+ left: 115%;
+ max-width: 40px;
+ transform: rotate(320deg);
+ -webkit-animation: slide-back linear 400s;
+ -moz-animation: slide-back linear 400s;
+ -o-animation: slide-back linear 400s;
+ -ms-animation: slide-back linear 400s;
+ animation: slide-back linear 400s;
 }
 
 .quote-box-row {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    overflow: hidden;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .quote-box {
-    min-width: 200px;
-    /* border: 1px solid black; */
-    text-align: center;
-    margin: 200px 50px 30px 50px;
+  min-width: 200px;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 85px 50px 0px 50px;
+    outline: none;
 }
 
+.quote-box-row-1 {
+ -webkit-animation: slide linear infinite 300s;
+ -moz-animation: slide linear infinite 300s;
+ -o-animation: slide linear infinite 300s;
+ -ms-animation: slide linear infinite 300s;
+ animation: slide linear infinite 300s;
+}
+
+.quote-box-row-2 {
+ -webkit-animation: slide-back linear infinite 300s;
+ -moz-animation: slide-back linear infinite 300s;
+ -o-animation: slide-back linear infinite 300s;
+ -ms-animation: slide-back linear infinite 300s;
+ animation: slide-back linear infinite 300s;
+}
+
+.quote-box-row-3 {
+ -webkit-animation: slide linear infinite 300s;
+ -moz-animation: slide linear infinite 300s;
+ -o-animation: slide linear infinite 300s;
+ -ms-animation: slide linear infinite 300s;
+ animation: slide linear infinite 300s;
+}
 
 .quote-box-row a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .quote-text {
-    font-size: .8rem;
+  font-size: .85rem;
 }
 
 .logo {
-    max-height: 40px;
-    max-width: 200px;
-    height: auto;
+  max-height: 60px;
+  max-width: 200px;
+  height: auto;
+    padding-bottom: 1rem;
+}
+
+.allure-badge {
+ max-height: 90px;
+ max-width: 200px;
 }
 
 footer {
     height: 100px;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 600px) {
 
-    .quote-box-row-1 {
-        -webkit-animation: slide linear 90s;
-        -moz-animation: slide linear 90s;
-        -o-animation: slide linear 90s;
-        -ms-animation: slide linear 90s;
-        animation: slide linear 90s;
-    }
+.owa-press-page {
+    height: 85vh;
+}
 
-    .quote-box-row-2 {
-        -webkit-animation: slide-back linear 90s;
-        -moz-animation: slide-back linear 90s;
-        -o-animation: slide-back linear 90s;
-        -ms-animation: slide-back linear 90s;
-        animation: slide-back linear 90s;
-    }
+.quote-box {
+  margin: 65px 50px 0px 50px;
+    outline: none;
+}
 
-    .quote-box-row-3 {
-        -webkit-animation: slide linear 90s;
-        -moz-animation: slide linear 90s;
-        -o-animation: slide linear 90s;
-        -ms-animation: slide linear 90s;
-        animation: slide linear 90s;
-    }
+.quote-box:active {
+  border: none;
+    outline: none;
+  box-shadow: none;
+}
 
-    .quote-box {
-        min-width: 200px;
-        /* border: 1px solid black; */
-        text-align: center;
-        margin: 30px 50px 30px 50px;
-    }
+.quote-box-row-1 {
+ -webkit-animation: slide linear infinite 230s;
+ -moz-animation: slide linear infinite 230s;
+ -o-animation: slide linear infinite 230s;
+ -ms-animation: slide linear infinite 230s;
+ animation: slide linear infinite 230s;
+}
+
+.quote-box-row-2 {
+ -webkit-animation: slide-back linear infinite 230s;
+ -moz-animation: slide-back linear infinite 230s;
+ -o-animation: slide-back linear infinite 230s;
+ -ms-animation: slide-back linear infinite 230s;
+ animation: slide-back linear infinite 230s;
+}
+
+.quote-box-row-3 {
+ -webkit-animation: slide linear infinite 300s;
+ -moz-animation: slide linear infinite 300s;
+ -o-animation: slide linear infinite 300s;
+ -ms-animation: slide linear infinite 300s;
+ animation: slide linear infinite 300s;
+}
+}
+
+@media screen and (min-width: 2000px) {
+
+.owa-press-page {
+    height: 1000px;
+}
+
+.quote-box {
+  margin: 95px 50px 0px 50px;
+    outline: none;
+}
+
+.quote-box-row {
+  margin-top: 75px;
+}
 }
 
 @keyframes slide {
-    100% {transform: translateX(500px);}
+  100% {transform: translateX(1500px);}
 }
 
 @keyframes slide-back {
-    100% {transform: translateX(-500px);}
+  100% {transform: translateX(-1500px);}
 }
